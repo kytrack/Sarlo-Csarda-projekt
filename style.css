@@ -11,7 +11,8 @@ h1{
 }
 #logo_hatter {
     background-color: rgb(10, 22, 39);
+    margin: 0px auto 0px auto;
 }
 #logo_hatter img {
-    width: 30%;
+    width: 40%;
 }
