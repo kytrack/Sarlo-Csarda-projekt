@@ -1,0 +1,173 @@
+body {
+    background-image: url("source/backgound-image.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+
+}
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+
+footer {
+    position: relative;
+    top: 0;
+    background-color: rgb(33, 37, 41);
+    color: rgb(193, 193, 193);
+    height: 100px;
+}
+
+h1 {
+    text-align: center;
+    font-weight: bold;
+    font-size: larger;
+}
+
+#alap {
+    width: 100%;
+    height: 100%;
+}
+
+#logo_hatter {
+    background-color: rgb(33, 37, 41);
+    margin: 0px auto 0px auto;
+}
+
+.jumbotron {
+    min-height: 100px;
+}
+
+#logo_hatter img {
+    width: 40%;
+    min-height: 90px;
+    min-width: 450px;
+}
+
+li[class="nav-item active text-white"] {
+    list-style-type: none;
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+li[class="nav-item active text-muted"] {
+    list-style-type: none;
+    font-size: 20px;
+}
+
+li[class="nav-item active text-muted"]:hover {
+    text-decoration: underline;
+    list-style-type: none;
+    font-size: 20px;
+}
+
+.alap {
+    background-color: rgba(0, 0, 0, 0.8);
+    border: 5px;
+    padding: 20px 10px 10px 10px;
+    border-radius: 10px;
+    color: rgb(193, 193, 193);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    align-items: center;
+    min-height: 75vh
+}
+
+.alap h1 {
+    font-size: 650%;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+
+.kepdiv img {
+    min-width: 100%;
+    min-height: 100%;
+    margin: 5px 0px 5px 0px;
+    border: 3px solid rgba(193, 193, 193, 0.2);
+    border-radius: 10px;
+    transition: 0.2s;
+}
+
+.kepdiv iframe {
+    max-width: 350px;
+    max-height: 200px;
+    border-radius: 10px;
+
+}
+
+.kepdiv img:hover {
+    transform: scale(1.1);
+}
+
+.kepdiv {
+    align-items: center;
+}
+
+.kepmellett h2 {
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.kepmellett {
+    margin: 5px 0px 5px 0px;
+    text-align: center;
+}
+
+.kozepre {
+    height: 100%;
+    display: flex;
+    align-items: center;
+
+}
+
+.break {
+    flex-basis: 100%;
+    height: 0px;
+    width: 0px;
+}
+
+#rendel {
+    background-color: rgb(220, 53, 69);
+    width: 200px;
+    height: 40px;
+    border: 0px;
+    border-radius: 15px;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#rendel {
+    transition: 0.2s;
+}
+
+#rendel:hover {
+    transform: scale(1.1);
+    background-color: rgb(97, 255, 182);
+    color: black;
+}
+footer p {
+    text-align: center;
+    margin: 0px;
+}
+footer a {
+    color: rgb(133, 133, 133);
+    text-decoration: none;
+}
+footer a:hover {
+    text-decoration: underline;
+    color: rgba(133, 133, 133);
+}
+#motto {
+    text-align: center;
+    margin-top: 0px;
+    padding-top: 0px;
+    margin-bottom: 20px;
+    font-size: 110%;
+}
+.ikon {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+}
